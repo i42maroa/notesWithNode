@@ -1,0 +1,18 @@
+npm i express express-handlebars express-session method-override mongoose passport passport-local bcryptjs connect-flash
+
+express -  framework de nodejs
+express-handlebars - motor de plantillas (extender el html) dentro de express
+express-session - crear sesiones dentro del servidor una vez que el usuario se autentique
+method-override - extender la funcionalidad de los formularios
+mongoose - módulo para unir express con la bd. No es la bd directamente
+passport - autenticar el usuario
+passport-local -  autenticar el usuario
+bcryptjs - cifrar texto convertiendolo en un hash
+connect-flash - enviar mensajes entre vistas
+
+
+npm i nodemon -D
+Para poder reiniciar el servidor sin pararlo
+
+
+npm run dev
